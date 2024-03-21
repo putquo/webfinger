@@ -20,22 +20,22 @@ const (
 	InternalServerError
 )
 
-func (t Type) into() string {
-	switch t {
-	case BadRequest:
+func statusType(status int) string {
+	switch status {
+	case 400:
 		return "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1"
-	case NotFound:
+	case 404:
 		return "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1"
-	case InternalServerError:
+	case 500:
 		return "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1"
 	default:
 		return "unknown"
 	}
 }
 
-func New(pType Type, status int, detail string) *ProblemDetails {
+func New(status int, detail string) *ProblemDetails {
 	return &ProblemDetails{
-		Type:   pType.into(),
+		Type:   statusType(status),
 		Title:  http.StatusText(status),
 		Status: status,
 		Detail: detail,

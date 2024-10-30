@@ -1,0 +1,10 @@
+encryptionsalt: v1:KCM0luDvI6o=:v1:IygzBDGnRrQvdvap:LRjN6HD7TWP4a7EwpM2fzFwE8nV2fw==
+config:
+  infra:identities:
+    secure: v1:sx9dVX/uKqTVJ1at:Z+8p6yRQS8C0Uk6fSP6r4FeW7oK4bamE7fcbz1cS8CF6Rr2NTPNc4YNZguuOkV7jDn0Z6kb8JAxxUV7LrcZqF7lAA6xxBy/ETBvsRiwsWK/zja5uuus6ACpDzCGa2JmJuBuoxNb+eUZgamyhS873R8byb+nUTsW3g/9sHKtqCVUo5BypXyXDLwZpuM18TbUtkDnY/kjY3S2Tg+tIZhewgCqG
+  infra:accountId:
+    secure: v1:EIsFxTRE6mercyQ/:dAT+m0qO9AsCBjZpYc8DMIvn1G2FVQFNPmWMx1Z+Iy5q7DAYinBff7A0iDJ+Hb+3
+  infra:zoneId:
+    secure: v1:8tuGF5ZRUwgP+St3:jEFm3+UgAp/vDbUNG1OgHCfUIF+Ss+R0ognNJt5Y3Si0sFQLRIAul4AXLBlrB2eR
+  infra:zoneName:
+    secure: v1:qb6MSjueRa5E7q+h:9JPnm/ObPucZUSBJgpnogc8g2zDeqWa/X7uxjA==

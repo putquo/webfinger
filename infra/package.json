@@ -1,0 +1,8 @@
+{
+  "name": "webfinger-worker-ts-infra",
+  "version": "1.0.0",
+  "description": "A simple Webfinger Cloudflare Worker.",
+  "main": "main.ts",
+  "author": "Preston van Tonder",
+  "license": "ISC"
+}

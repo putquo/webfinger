@@ -9,6 +9,9 @@
   "author": "Preston van Tonder",
   "license": "ISC",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241022.0"
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@pulumi/cloudflare": "^5.41.0",
+    "@pulumi/pulumi": "^3.137.0",
+    "@pulumi/std": "^1.7.3"
   }
 }

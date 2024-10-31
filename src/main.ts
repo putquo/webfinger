@@ -1,4 +1,4 @@
-import { generateJsonResourceDescriptor, Identity } from "../lib/webfinger";
+import { generateJsonResourceDescriptor } from "../lib/webfinger";
 
 interface Context {
   IDENTITIES: string;

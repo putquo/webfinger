@@ -26,9 +26,9 @@ new cloudflare.WorkersRoute("route", {
     scriptName: script.name,
 });
 
-new cloudflare.WorkersSecret("identities", {
+new cloudflare.WorkersSecret("descriptors", {
     accountId: config.require("accountId"),
-    name: "IDENTITIES",
+    name: "descriptors",
     scriptName: script.name,
-    secretText: config.require("identities"),
+    secretText: config.require("descriptors"),
 });

@@ -8,10 +8,15 @@
   },
   "author": "Preston van Tonder",
   "license": "ISC",
+  "scripts": {
+    "build": "wrangler deploy src/main.ts --dry-run --name webfinger --compatibility-date 2024-10-31 --outdir dist",
+    "deploy": "pulumi up -C infra"
+  },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241022.0",
     "@pulumi/cloudflare": "^5.41.0",
     "@pulumi/pulumi": "^3.137.0",
-    "@pulumi/std": "^1.7.3"
+    "@pulumi/std": "^1.7.3",
+    "wrangler": "^3.84.0"
   }
 }
